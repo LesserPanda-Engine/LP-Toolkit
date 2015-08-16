@@ -1,12 +1,12 @@
 {
-  "name": "pandatool",
-  "version": "1.12.3",
-  "description": "Panda Toolkit",
+  "name": "lesser-panda-cli",
+  "version": "0.1.0",
+  "description": "LesserPanda CLI",
   "main": "index.js",
-  "author": "Eemeli Kelokorpi <eemeli.kelokorpi@gmail.com> (http://www.pandajs.net/)",
+  "author": "Sean Bohan<pixelpicosean@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekelokorpi/panda.js-toolkit.git"
+    "url": "https://github.com/LesserPanda-Engine/LP-Toolkit.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,6 +15,6 @@
     "uglify-js": "~2.4.13"
   },
   "bin": {
-    "panda": "./panda.js"
+    "lpanda": "./lpanda.js"
   }
 }
