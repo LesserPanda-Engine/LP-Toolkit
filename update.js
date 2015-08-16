@@ -9,10 +9,7 @@ var update = function(dir, callback, params) {
 
     // Settings
     var tempDir = path.join(dir, '.panda');
-    var devMode = (params[0] === 'dev');
-    var url = 'https://github.com/ekelokorpi/panda.js/archive/' + (devMode ? 'develop' : 'master') + '.zip';
-
-    if (devMode) console.log('(develop version)');
+    var url = 'https://github.com/LesserPanda-Engine/LP-Engine/archive/master.zip';
 
     var filesToMove = [];
 
@@ -36,7 +33,7 @@ var update = function(dir, callback, params) {
         for (var i = 0; i < files.length; i++) {
             var filename = path.join(dir, files[i]);
             var stat = fs.statSync(filename);
-            
+
             if (stat.isDirectory()) rmdir(filename);
             else fs.unlinkSync(filename);
         }
