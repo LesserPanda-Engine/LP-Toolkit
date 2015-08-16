@@ -1,0 +1,20 @@
+{
+  "name": "pandatool",
+  "version": "1.12.3",
+  "description": "Panda Toolkit",
+  "main": "index.js",
+  "author": "Eemeli Kelokorpi <eemeli.kelokorpi@gmail.com> (http://www.pandajs.net/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekelokorpi/panda.js-toolkit.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "download": "^0.1.17",
+    "jscs": "1.12.0",
+    "uglify-js": "~2.4.13"
+  },
+  "bin": {
+    "panda": "./panda.js"
+  }
+}
