@@ -5,12 +5,12 @@ var commands = {
   // lint: 'Validate your code'
 };
 
-var panda = {
+var lpanda = {
 	help: function() {
 		var data = require('./package.json');
 		console.log(data.description + ' ' + data.version);
 		console.log('');
-		console.log('Usage: panda <command> [options]');
+		console.log('Usage: lpanda <command> [options]');
 		console.log('');
 		console.log('Commands:');
 		for (var name in commands) {
@@ -20,7 +20,7 @@ var panda = {
 };
 
 for (var name in commands) {
-	panda[name] = require('./' + name);
+	lpanda[name] = require('./' + name);
 }
 
-module.exports = exports = panda;
+module.exports = exports = lpanda;
