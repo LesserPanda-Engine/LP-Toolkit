@@ -1,8 +1,8 @@
 var commands = {
-    build: 'Build project',
-    create: 'Create new project',
-    update: 'Update engine',
-    // lint: 'Validate your code'
+  build: 'Build project',
+  create: 'Create new project',
+  update: 'Update engine',
+  // lint: 'Validate your code'
 };
 
 var panda = {
@@ -14,7 +14,7 @@ var panda = {
 		console.log('');
 		console.log('Commands:');
 		for (var name in commands) {
-		    console.log('       ' + name + '\t' + commands[name]);
+	    console.log('       ' + name + '\t' + commands[name]);
 		}
 	}
 };
