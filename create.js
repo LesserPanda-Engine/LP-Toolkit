@@ -17,7 +17,9 @@ var create = function(dir, callback, params) {
         'src/game',
         'media',
         'index.html',
-        'release.html'
+        'release.html',
+        '.editorconfig',
+        '.gitignore'
     ];
 
     var tempPath = dir + '/' + tempDir;
